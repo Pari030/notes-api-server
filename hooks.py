@@ -1,6 +1,6 @@
 from gunicorn.arbiter import Arbiter
 
-from notes import Notes
+from models.notes import Notes
 
 
 def on_starting(_: Arbiter):
